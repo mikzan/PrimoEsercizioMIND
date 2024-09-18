@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Bar</title>
+    <meta name="description" content="Cocktail per tutti">
+    <meta name="author" content="MZ">
+    <meta name="copyright" content="©MZ">
+    <link rel="icon" href="img/favicon.ico" type="image/icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Tilt+Neon:XROT@11&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Major+Mono+Display&family=Tilt+Neon:XROT@11&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" title="Vai alla pagina Home"><img src="img/logo.png" alt="Cocktail per tutti" height="77"></a>
+            <a class="ancore_menu" href="index.html" title="Vai alla pagina Home">Home</a>
+            <a class="ancore_menu" href="index.html#fascia_locale" title="Vai alla sezione il locale">Il locale</a>
+            <a class="ancore_menu" href="index.html#fascia_cocktail" title="Vai alla sezione I nostri cocktail">I nostri cocktail</a>
+            <a class="ancore_menu" href="prenota.html" title="Vai alla sezione Prenota un tavolo">Prenota</a>
+            <a class="ancore_menu" href="index.html#fascia_contatti" title="Vai alla sezione Contatti">Contatti</a>
+        </nav>
+    </header>
+    <section id="prenota">
+        <h1>Prenota ora il tuo tavolo</h1>
+        <form action="_black" method="post">
+            <fieldset>
+                <input type="text" id="nome_for" autofocus placeholder="Inserisci il tuo nome" autocomplete="off" name="nome" required><span></span>
+                <input type="text" id="cognome_for" autofocus placeholder="Inserisci il tuo Cognome" autocomplete="off" name="cognome">
+                <input type="email" id="email_for" name="email" autofocus placeholder="Inserisci la tua email" autocomplete="off">
+                <input type="tel" id="telefono_for" name="telefono" pattern="[0-9]+" autofocus placeholder="Inserisci il tuo numero di telefono" autocomplete="off" required><span></span>
+                <textarea name="messaggio" id="messaggio_for" autofocus placeholder="Inserirsci qui il motivo della tua richiesta"></textarea>
+                <label>Data richiesta: </label><br>
+                <input type="date" id="data_for" name="data" required><span></span>
+                <input type="time" id="orario_for" name="orario" required min="17:00" max="00:00" value="17:00"><span></span>
+                <input type="checkbox" name="privacy_true" id="privacy_true" value="true" required><label>Accetto il trattamento dati per la <a href="_black" title="Informativa privacy">privacy</a></label><span></span>
+                <input type="submit" value="Prenota" class="button">
+            </fieldset>
+        </form>
+        <p>Siamo disponibili anche per feste private (laurea/compleanni) anche in orari diversi dall'apertura. Chiedici informazioni con l'apposito box.</p>
+    </section>
+    <footer>
+        <p>© Copyright 2024 - Tutti i diritti riservati - P.IVA 0123456789 - <a href="#">Privacy Policy</a> | <a href="#">Cookies Policy</a></p>
+    </footer>
+    <a class="button backtop" title="Torna alla Home" href="index.html"><</a>
+</body>
+</html>

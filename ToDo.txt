@@ -1,0 +1,4 @@
+creare footer con icone social
+icona ^ per tornare in cima e < per tornare in home
+pagina di prenotazione (descrizione feste laurea) in altra posizione
+responsive
