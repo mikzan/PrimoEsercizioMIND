@@ -1,4 +1,7 @@
 creare footer con icone social
+sistemare fascia contatti
 icona ^ per tornare in cima e < per tornare in home
 pagina di prenotazione (descrizione feste laurea) in altra posizione
-responsive
+sistemare media query (responsive)
+
+aggiungere animazioni dopo lezione js
