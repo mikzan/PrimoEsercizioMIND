@@ -1,6 +1,6 @@
 creare footer con icone social
 sistemare fascia contatti
-icona ^ per tornare in cima e < per tornare in home
+icona ^ per tornare in cima e < per tornare in home da fontawesome
 pagina di prenotazione (descrizione feste laurea) in altra posizione
 sistemare media query (responsive)
 
